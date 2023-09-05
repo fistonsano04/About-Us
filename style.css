@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  body {
+    font-family: "roboto";
+    color: #fff;
+    
+  }
+  
+  section {
+    height: 100%;
+    padding: 2em 0;
+  }
+  
+  .section1 {
+    background-color:#1a73e7;
+    clip-path: polygon(0 0, 100% 0%, 100% 80%, 0% 100%);
+    padding-bottom: 10%;
+  }
+  .img img{
+    object-fit: cover;
+background-size: cover;
+  }
+  img{
+    width: 300px;
+    height: 300px;
+  }
+  .container {
+    width: 70%;
+    margin: 0 auto;
+  }
+  
+  .title {
+    text-align: center;
+    font-size: 2em;
+  }
+  
+  .content-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2em 0;
+  }
+  
+  .img-wrapper {
+    width: 50%;
+  }
+  
+  .img{
+    width: 300px;
+    height: 300px;
+    background: #fff;
+    margin: 0 auto;
+  }
+  
+  .text-wrapper{
+    width: 50%;
+  }
+  
+  .text {
+    margin-bottom: 1em;
+  }
+  
+  .btn-wrapper {
+    margin-top: 2em;
+  }
+  @media (max-width:1280px){
+p{
+    line-height: 1.2em;
+    letter-spacing: 2.2px;
+}
+
+  }
+  @media (max-width:1122px){
+p{
+    letter-spacing: 2.3px;
+}
+  }
+  @media (max-width:905px){
+    p{
+        line-height: 1.5em;
+        letter-spacing: 1.5px;
+        font-size: 5em;
+    }
+    img{
+        margin-left:-5em;
+    }
+  }
+  @media (max-width:768px) {
+    img{
+margin-left:-5em;
+width:150px;
+height: 150px;
+    }
+  }
+  @media (max-width:705px){
+    .section1{
+        clip-path: none;
+        height: 100vh;
+    }
+  }
+  @media (max-width: 576px){
+    .text-wrapper{
+flex-wrap: wrap;
+position: relative;
+justify-content: space-between;
+display: flex;
+align-items: center;
+    }
+    img{
+        height: 200px;
+        width: 200px;
+    }
+    .section1{
+        clip-path: none;
+        height: 100vh;
+    }
+  }
+  @media (max-width:556px){
+    .h1{
+        margin-left: -5.5em;
+        padding-bottom: 1.3em;
+
+    }
+p{
+    margin-left: -8.5em;
+    position: relative;
+    display: inline-block;
+}
+img{
+    display: none;
+}
+.section1{
+    clip-path: none;
+    height: 100vh;
+}
+  }
+  @media (max-width:390px){
+p{
+    letter-spacing: 2.5px;
+    font-size: 2em;
+}
+  }
+  
+  
